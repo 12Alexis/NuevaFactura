@@ -11,7 +11,7 @@ class Medida_model extends CI_Model {
 		$medida = $this->db->from('medida')
 							->get()
 							->row();
-		return $medida;
+		return $medida; //
 	}
 
 }
